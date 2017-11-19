@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessing the Sydney Boys High School Intranet Portal</title>
+  <link rel="stylesheet" href="sbhs-login-text-shadow.css">
+</head>
+<body>
+  <header>
+    <a href="http://www.sydneyboyshigh.com/">
+      <img src="images/sbhs_crest.png" alt="SBHS Crest" id="sbhs-crest">
+    </a>
+    <h1 id="title">Sydney Boys High School</h1>
+  </header>
+  <main>
+    <h1>Login to Intranet Portal</h1>
+    <p>Log in using your Sydney Boys High School network details.</p>
+
+    <form method="post" id="login-form">
+      <ul>
+        <li>
+          <input type="text" name="username" id="username" class="main-input" placeholder="Username" autofocus>
+        </li>
+        <li>
+          <input type="password" name="password" id="password" class="main-input" placeholder="Password">
+        </li>
+        <li class="form-buttons">
+          <input type="submit" class="login-button" value="Log in">
+
+          <a href="?action=register" id="parent-registration">Parent Registration</a>
+          <a href="http://www.sydneyboyshigh.com/login-instructions" id="help-button"><img src="https://login.sbhs.net.au/shssupport/assets/images/help.png" title="Help" alt="Help"></a>
+        </li>
+      </ul>
+    </form>
+  </main>
+</body>
+</html>

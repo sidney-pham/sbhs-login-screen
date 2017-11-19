@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SBHS Login Pages</title>
+</head>
+<body>
+  <h1>Sydney Boys High School Login Page</h1>
+  <p>The requirements didn't really specify what was determined in the 'requirements analysis' stage. I inferred that the desired modifications included:</p>
+  <ol>
+    <li>An image based background. (This seemed the most obvious difference between the <a href="http://student.sbhs.net.au/images/stories/intranet/student/NewLoginScreen.png">proposed design</a> and the <a href="https://login.sbhs.net.au">current login screen</a>.)</li>
+    <li>A more modern/less boring(?) design. The current design is white on black and uses standard UI elements (e.g., input[type=submit] without styling).</li>
+  </ol>
+  <ul>
+    <li>
+      <a href="sbhs-login.html">Suggested screen.</a>
+      <ul>
+        <li>This is the suggested design.</li>
+      </ul>
+    </li>
+    <li>
+      <a href="sbhs-login-error.html">Suggested screen showing errors.</a>
+    </li>
+    <li>
+      <a href="sbhs-login.html">Who knows</a>
+    </li>
+  </ul>
+</body>
+</html>
+
+
+- ?action=register
+- title
+- choose Header text 'Intranet Portal'
+- font choice suggest Lato
+- On login error, add p.login-error-message by inserting dom node or toggling a class that sets display.
+  - Also add class "login-error-form" to form#login-form
+- Probably should use HTML5 validation / constraint api.
